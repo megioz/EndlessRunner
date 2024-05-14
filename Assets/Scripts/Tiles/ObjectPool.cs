@@ -33,7 +33,6 @@ public class ObjectPool : MonoBehaviour
             if (!pooledObjects[i].activeInHierarchy)
                 return pooledObjects[i];
         }
-
         return null;
     }
 }
